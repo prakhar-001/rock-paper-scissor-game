@@ -64,3 +64,26 @@ img{
     padding: 1.2rem;
     border-radius: 1rem;
 }
+@media (max-width : 600px) {
+    .choices{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+    .choice{
+        height: 150px;
+        width: 150px;
+    }
+    img{
+        height: 140px;
+        width: 140px;
+    }
+    .choice:hover{
+        /* opacity: 60%; */
+        background-color: black;
+    }
+    .score-board{
+        margin-top: 1rem;
+        font-size: 1rem;
+
+    }
+}
